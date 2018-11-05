@@ -9,7 +9,7 @@ class Mammal
 {
 public:
 	Mammal(); // sets weight to 0 and name to ""
-	Mammal(int weight, std::string name);
+	Mammal(int weight, std::string name); // sets weight to weight, name to name
 	virtual ~Mammal();
 
 	void virtual Speak() = 0;
